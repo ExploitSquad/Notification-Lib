@@ -1,4 +1,3 @@
-
 local Nofitication = {}
 
 local GUI = game:GetService("CoreGui"):FindFirstChild("STX_Nofitication")
@@ -25,7 +24,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     
     Window.Name = "Window"
     Window.Parent = ambientShadow
-    Window.BackgroundColor3 = Colo3.random(0, 0, 0, 0, 0, 1)
+    Window.BackgroundColor3 = Color3.fromRGB(255, 25, 76)
     Window.BorderSizePixel = 0
     Window.Position = UDim2.new(0, 5, 0, 5)
     Window.Size = UDim2.new(0, 230, 0, 80)
